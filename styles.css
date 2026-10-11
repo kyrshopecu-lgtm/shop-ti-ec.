@@ -14,7 +14,7 @@
 .spark{position:absolute;color:#ffdb65;text-shadow:0 0 12px #ffc638,0 0 26px #f8b72b;font-size:27px;animation:sparkle 2.4s ease-in-out infinite}
 .spark-one{top:15%;right:10%}.spark-two{bottom:27%;left:7%;animation-delay:.8s}.spark-three{top:45%;right:2%;animation-delay:1.3s}
 @keyframes emblemFloat{0%,100%{translate:0 0}50%{translate:0 -12px}}
-@keyframes emblemTurn{0%,100%{rotateY:-7deg rotateX(2deg)}50%{rotateY:7deg rotateX(-2deg)}}
+@keyframes emblemTurn{0%,100%{transform:rotateY(-7deg) rotateX(2deg)}50%{transform:rotateY(7deg) rotateX(-2deg)}}
 @keyframes haloSpin{from{rotate:0deg}to{rotate:360deg}}
 @keyframes glowPulse{0%,100%{opacity:.5;scale:1}50%{opacity:1;scale:1.15}}
 @keyframes sparkle{0%,100%{opacity:.3;transform:scale(.7) rotate(0)}50%{opacity:1;transform:scale(1.25) rotate(30deg)}}
